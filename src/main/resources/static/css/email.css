@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    font-family: Comfortaa;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(186, 221, 225);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 550px;
+    height: auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+/* Email Message Header */
+.email-message-header{
+    text-align: center;
+}
+
+/* Company Name */
+.company-name{
+    text-align: center;
+    font-size: 35px;
+    color: gray;
+}
+
+/* Welcome Text */
+.welcome-text{
+    text-align: center;
+}
+/* Verify Account Button */
+.verify-account-btn{
+    padding: 15px;
+    background-color: rgb(37, 73, 255);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Copy Right Wrapper */
+.copy-right{
+    text-align: center;
+    padding: 15px;
+    color: gray;
+    font-size: 14px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
